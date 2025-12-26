@@ -1,0 +1,29 @@
+{
+  "steric_cutoff": 10.0,
+
+  "w_steric": 1.0,
+  "w_hbond": 1.6,
+  "w_lipo": 1.0,
+  "w_clash": 1.0,
+
+  "steric_slope_in": 6.0,
+  "steric_slope_out": -1.2,
+  "steric_width_in": 0.6,
+  "steric_width_out": 1.5,
+
+  "clash_overlap_hard": 0.8,
+  "clash_k": 3000.0,
+
+  "hbond_r0": 2.7,
+  "hbond_width_out": 0.8,
+  "hbond_strength": -2.2,
+  "hbond_angle_min": 120.0,
+  "hbond_angle_strength": 1.3,
+  "hbond_require_angle": true,
+
+  "lipo_r_min": 3.4,
+  "lipo_r_max": 5.0,
+  "lipo_contact_weight": 1.0,
+  "lipo_sat_max": 12.0,
+  "lipo_sat_k": 6.0
+}
